@@ -6,6 +6,49 @@ html {
   font-size: 62.5%;
   overflow-x: hidden; }
 
+
+.video-mask {
+  width: 100%;
+  aspect-ratio: 1 / .83; /* cuadrado, como tus imágenes */
+  overflow: hidden;
+  border-radius: 10px; /* opcional, para redondear esquinas como tus imágenes */
+}
+
+.video-mask video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* recorta el video sin deformarlo */
+  display: block;
+}
+
+.cookie-consent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.9);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  z-index: 9999;
+  display: none;
+}
+.cookie-consent button {
+  background: #00bfa6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.cookie-consent a {
+  color: #00bfa6;
+  text-decoration: underline;
+}
+
+
 body {
   background-image: url(../img/Fondo.jpg);
   background-position: 50% 90%;
