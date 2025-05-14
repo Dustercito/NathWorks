@@ -1,7 +1,4 @@
-/*
- * Moon by GetTemplates.co
- * URL: https://gettemplates.co
- */
+
 html {
   font-size: 62.5%;
   overflow-x: hidden; }
@@ -35,7 +32,7 @@ html {
   display: none;
 }
 .cookie-consent button {
-  background: #00bfa6;
+  background: #a5b465;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -44,10 +41,16 @@ html {
   border-radius: 5px;
 }
 .cookie-consent a {
-  color: #00bfa6;
+  color: #a5b465;
   text-decoration: underline;
 }
+.cookie-consent:hover a{
+  color: #ffcf50;
+}
 
+.mb-02:hover{
+  color: #a5b465;
+}
 
 body {
   background-image: url(../img/Fondo.jpg);
@@ -198,10 +201,10 @@ a:hover {
   color: #35B8AD; }
 
 .text-red {
-  color: #FC665F; }
+  color: #ffcf50 }
 
 a {
-  color: #f15e75; }
+  color: #ffcf50 }
 
 .fs-40 {
   font-size: 40px; }
